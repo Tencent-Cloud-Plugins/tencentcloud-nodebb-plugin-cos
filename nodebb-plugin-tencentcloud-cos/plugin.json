@@ -1,0 +1,25 @@
+{
+	"id": "nodebb-plugin-tencentcloud-cos",
+	"url": "https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init"},
+		{ "hook": "filter:uploadImage", "method": "uploadImage"},
+		{ "hook": "filter:uploadFile", "method": "uploadFile"},
+		{ "hook": "action:plugin.activate", "method": "activate"},
+		{ "hook": "action:plugin.deactivate", "method": "deactivate"}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates"
+}
