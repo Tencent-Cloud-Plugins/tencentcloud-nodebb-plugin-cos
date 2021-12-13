@@ -1,20 +1,20 @@
-# 腾讯云图片内容安全（IMS）插件
+# 腾讯云图片内容安全（COS）插件
 
 ## 0.版本依赖
 
 - NodeBB 1.16.2+
-- [腾讯云插件中心插件](./common.md)
+- [腾讯云插件中心插件](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-common)
 
 ## 1. 插件介绍
 | 标题      | 名称    |
 | ----     | ---------------- |
-| 中文名称   | 腾讯云图片内容安全（IMS）插件 |
-| 英文名称   | nodebb-plugin-tencentcloud-ims |
-| 最新版本   | v1.0.1 (2021.03.16) |
+| 中文名称   | 腾讯云图片内容安全（COS）插件 |
+| 英文名称   | nodebb-plugin-tencentcloud-cos |
+| 最新版本   | v1.0.2 (2021.12.13) |
 | 适用平台   | [NodeBB](https://nodebb.org) |
 | 适用产品   | [腾讯云对象存储（COS）](https://cloud.tencent.com/product/cos) |
-| GitHub项目| [tencentcloud-nodebb-plugin-ims](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
-| gitee项目| [tencentcloud-nodebb-plugin-ims](https://gitee.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
+| GitHub项目| [tencentcloud-nodebb-plugin-cos](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
+| gitee项目| [tencentcloud-nodebb-plugin-cos](https://gitee.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
 | 主创团队   | 腾讯云中小企业产品中心（SMB Product Center of Tencent Cloud） |
 
 一款腾讯云研发的，提供给NodeBB站长使用的官方插件，将用户在发帖或回复时上传的图片或文件保存至腾讯云对象存储中心
@@ -60,8 +60,8 @@
 
 | 插件入口      | 链接    |
 | ----     | ---------------- |
-| Github | [腾讯云图片内容安全（IMS）插件](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
-| Gitee | [腾讯云图片内容安全（IMS）插件](https://gitee.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
+| Github | [腾讯云图片内容安全（COS）插件](https://github.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
+| Gitee | [腾讯云图片内容安全（COS）插件](https://gitee.com/Tencent-Cloud-Plugins/tencentcloud-nodebb-plugin-cos) |
 
 ## 6. FAQ
 > 1. Q:腾讯云对象存储（COS）插件依赖别的插件吗？
@@ -70,7 +70,7 @@
 
 ## 7. GitHub版本迭代记录
 
-### 7.1. nodebb-plugin-tencentcloud-cos v1.0.0
+### 7.1. nodebb-plugin-tencentcloud-cos v1.0.2
 
 - 对用户在发帖或回复时上传的图片或文件保存至腾讯云对象存储中心
 

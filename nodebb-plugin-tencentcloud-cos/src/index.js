@@ -15,8 +15,8 @@
  */
 'use strict'
 
-const { handleError, fetchConfig, saveConfig } = require.main.require('nodebb-Plugin-tencentcloud-common/src/common');
-const commonController = require.main.require('nodebb-Plugin-tencentcloud-common/src/commonController');
+const { handleError, fetchConfig, saveConfig } = require.main.require('nodebb-plugin-tencentcloud-common/src/common');
+const commonController = require.main.require('nodebb-plugin-tencentcloud-common/src/commonController');
 const pkg        = require('../package.json');
 const controller = require('./controller');
 const COS        = require('cos-nodejs-sdk-v5');

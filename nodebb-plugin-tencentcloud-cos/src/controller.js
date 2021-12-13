@@ -16,7 +16,7 @@
 
 'use strict';
 const nconf = require.main.require('nconf');
-const { handleError, fetchConfig, saveConfig } = require.main.require('nodebb-Plugin-tencentcloud-common/src/common');
+const { handleError, fetchConfig, saveConfig } = require.main.require('nodebb-plugin-tencentcloud-common/src/common');
 
 // 公共模块控制器
 const Controller = { 
